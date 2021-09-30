@@ -1,0 +1,96 @@
+
+
+/* body{
+
+    background-color:black;
+
+
+} */
+#navbar{
+
+    flex-direction: column;
+}
+
+
+#navbar ul li{
+    font-size: 1.2rem;
+    padding: 0px 7px;
+    padding-bottom: 10px;
+}
+#services{
+
+
+    flex-direction: column;
+}
+
+#clients{
+
+
+    overflow: hidden;
+}
+
+
+#home{
+    height: 200px;
+    flex-direction: column;
+}
+
+
+#home::before{
+
+    height: 200px;
+}
+#home p{
+
+    font-size: 15px;
+}
+
+
+#services .box{
+
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 15px;
+}
+/* clients doubt */
+#clients{
+
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+
+
+#contact-box form{
+
+
+    width: 40%;
+}
+
+.h-primary-center{
+
+
+    font-size: 23px;
+}
+
+.btn{
+
+
+    font-size: 13px;
+    padding: 4px 4px;
+}
+
+.client-item{
+
+    padding: 34px;
+}
